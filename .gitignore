@@ -1,0 +1,42 @@
+# Kerala Air Quality Pattern Miner
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+.venv/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data (raw, processed, generated) - keep out of version control
+data/
+reports/figures/*.png
+reports/figures/*.html
+reports/metrics/*.json
+reports/metrics/*.csv
+
+# Local secrets
+.env
+
+# OS
+Thumbs.db
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+test-results/
+
+# Streamlit
+.streamlit/secrets.toml
